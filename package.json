@@ -1,7 +1,7 @@
 {
-  "name": "aaronspressurewashing",
+  "name": "pressurewashing",
   "version": "1.0.0",
-  "description": "Aaron's pressure washing website.",
+  "description": "Pressure washing website.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

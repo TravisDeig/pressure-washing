@@ -28,9 +28,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed, top;  
     background-size: cover;
-    background-position-x: 0%;
-    background-position-y: 50%;
     background-clip: border-box;
+
 }
 
 h2, h3, h4 {
@@ -48,7 +47,7 @@ hr, .rounded {
     align-content: center;
 }
 
-#headerHelp {
+.headHelp {
     background-color: rgba(0, 0, 0, 0.5);
     padding-top: 10%;
     padding-bottom: 10%;
@@ -56,4 +55,37 @@ hr, .rounded {
 
 .test {
     background-image: url("/img/WaveBothSides.png");
+}
+
+.dark {
+    background-color: #4353a3;
+}
+
+
+.dividerHelp {
+    margin-bottom: -1px;
+    margin-top: -1px;
+    background-position: relative;
+    background-size: cover;
+    position: relative;
+    vertical-align: baseline;
+    padding: 0;
+}
+
+.formContainer {
+    background-color: white;
+}
+
+.darkCard {
+    background-color: rgb(201, 199, 199);
+    border-color: rgb(165, 165, 165);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#jobInfoForm {
+    background-color: rgba(67, 83, 163, 95%);
+    color: white;
 }
