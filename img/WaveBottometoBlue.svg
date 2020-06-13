@@ -7,76 +7,80 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="WaveBottometoBlue.svg"
-   id="svg40"
-   xml:space="preserve"
-   style="enable-background:new 0 0 1199 292;"
-   viewBox="0 0 1199 292"
-   y="0px"
+   version="1.1"
    x="0px"
-   version="1.1"><metadata
+   y="0px"
+   viewBox="0 0 1199 292"
+   style="enable-background:new 0 0 1199 292;"
+   xml:space="preserve"
+   id="svg40"
+   sodipodi:docname="WaveBottometoBlue.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"><metadata
    id="metadata46"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs44" /><sodipodi:namedview
-   inkscape:current-layer="svg40"
-   inkscape:window-maximized="1"
-   inkscape:window-y="2"
-   inkscape:window-x="-8"
-   inkscape:cy="250.36287"
-   inkscape:cx="971.01689"
-   inkscape:zoom="2.5359125"
-   showgrid="false"
-   id="namedview42"
-   inkscape:window-height="1017"
-   inkscape:window-width="1920"
-   inkscape:pageshadow="2"
-   inkscape:pageopacity="0"
-   guidetolerance="10"
-   gridtolerance="10"
-   objecttolerance="10"
-   borderopacity="1"
-   bordercolor="#666666"
+   inkscape:document-rotation="0"
    pagecolor="#ffffff"
-   inkscape:document-rotation="0" />
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   id="namedview42"
+   showgrid="false"
+   inkscape:zoom="0.63397813"
+   inkscape:cx="669.59553"
+   inkscape:cy="169.86475"
+   inkscape:window-x="1912"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg40" />
 <style
-   id="style29"
-   type="text/css">
+   type="text/css"
+   id="style29">
 	.st0{opacity:0.57;fill:#4353A3;}
 	.st1{opacity:0.61;fill:#041C44;}
 	.st2{fill:#4353A3;}
 </style>
 <rect
-   y="-20.076279"
-   x="-2.5209417"
-   height="293.33673"
-   width="1207.0977"
+   style="fill:#ffffff;fill-opacity:1;stroke-width:0.999196"
    id="rect855"
-   style="fill:#ffffff;fill-opacity:1;stroke-width:0.999196" /><g
-   transform="matrix(1.0358144,0,0,1.2984162,-20.616636,-24.541023)"
-   id="Layer_3">
+   width="1207.0977"
+   height="293.33673"
+   x="-2.5209417"
+   y="-20.076279" /><g
+   style="fill:#b2ffff;fill-opacity:0.66274512"
+   id="Layer_3"
+   transform="matrix(1.0358144,0,0,1.2984162,-20.616636,-24.541023)">
 	<path
-   id="path31"
+   style="fill:#b2ffff;fill-opacity:0.66274512"
+   class="st0"
    d="m 0.5,151.21 c 0,0 43,-23.71 159,-44.71 82.47,-14.93 141,0 214,23 25.25,7.96 73,23 89.28,26.79 296.35,68.9 410.59,71.34 472.72,2.21 71,-79 263,-80 263,-80 v 212 H 0.5 Z"
-   class="st0" />
+   id="path31" />
 </g>
 <g
-   transform="matrix(1.0358144,0,0,1.2984162,-20.616636,-24.541023)"
-   id="Layer_2">
+   style="fill:#009aff;fill-opacity:0.57647061"
+   id="Layer_2"
+   transform="matrix(1.0358144,0,0,1.2984162,-20.616636,-24.541023)">
 	<path
-   id="path34"
+   style="fill:#009aff;fill-opacity:0.57647061"
+   class="st1"
    d="m 0.5,99.5 c 0,0 140.97,103.59 218.07,78.85 170.93,-54.85 333.79,99.42 370.93,61.15 119.28,-122.9 327,-145 452,-103 125,42 157,24.22 157,24.22 V 291.5 H 0.5 Z"
-   class="st1" />
+   id="path34" />
 </g>
 <g
-   transform="matrix(1.0358144,0,0,1.2984162,-20.616636,-24.541023)"
-   style="fill:#4353a3;fill-opacity:1"
-   id="Layer_1">
+   id="Layer_1"
+   style="fill:#3f80d4;fill-opacity:1"
+   transform="matrix(1.0358144,0,0,1.2984162,-20.616636,-24.541023)">
 	<path
-   style="fill:#4353a3;fill-opacity:1"
-   id="path37"
+   class="st2"
    d="m 0.5,204.5 c 0,0 65.08,-84.89 291,-20 223.41,64.17 287.28,-62.29 397,-50 0,0 36,-2 133.72,25.46 27.95,7.85 58.43,14.63 89.28,24.54 165,53 287,-67 287,-67 v 174 H 0.5 Z"
-   class="st2" />
+   id="path37"
+   style="fill:#3f80d4;fill-opacity:1" />
 </g>
 </svg>
