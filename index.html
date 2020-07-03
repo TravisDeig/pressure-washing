@@ -19,9 +19,10 @@
 </head>
 
 <body>
+
     <div id="pageContainer">
         <!-- top header -->
-        <div class="container-fluid navbar-dark">
+        <div class="container-fluid navbar-dark sticky-top">
             <div class="row">
                 <div class="col">
                     <a role="button" class="btn btn-link text-light d-none d-sm-none d-md-block"
@@ -51,12 +52,12 @@
         <div id="top_bg_container">
             <!-- Header & navbar -->
             <header class="mainHeader">
-                <nav class="navbar navbar-expand-sm sticky-top">
+                <nav class="navbar navbar-expand-sm">
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col ">
-                                <a class="navbar-brand tester" href="#"><img style="max-width: 200%;" src="img/logoFull.svg"
-                                        alt="Pressure Washing logo." class="tester"></a>
+                                <a class="navbar-brand tester" href="#"><img style="max-width: 200%;"
+                                        src="img/logoFull.svg" alt="Pressure Washing logo." class="tester"></a>
                             </div>
                             <div class="navbar col" id="">
                                 <ul class="navbar-nav tester">
@@ -141,7 +142,7 @@
                                 <h4>Pressure Washing</h4>
                             </div>
                             <div class="row align-self-center mb-3">
-                                <button class="btn btn-primary">Learn More</button>
+                                <button class="btn btn-primary" role="button" id="pwButton">Learn More</button>
                             </div>
                         </div>
                     </div>
@@ -154,7 +155,7 @@
                                 <h4>Roof Cleaning</h4>
                             </div>
                             <div class="row align-self-center mb-3">
-                                <button class="btn btn-primary">Learn More</button>
+                                <button class="btn btn-primary" role="button" id="rcButton">Learn More</button>
                             </div>
                         </div>
                     </div>
@@ -206,9 +207,135 @@
             </div>
             <!-- #divider -->
         </div>
+        <!-- modals -->
+        <div class="modal fade" id="pwModal" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header text-light" style="background-color: #3f80d4ff;">
+                        <h3 class="modal-title mainHead" style="color:yellow;">Pressure Washing</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="reserveForm">
+                            <div class="form-group row">
+                                <div class="col">
+                                    <p>Pressure washing is a very effective way of cleaning the exteriors of your
+                                        property and making them look their best. Bugs, weather, and age can make your
+                                        exterior look old and dirty. It can also lessen the curb appeal of your
+                                        property. Looking for the best pressure washer company near me? Aarron’s
+                                        Pressure Washing has capable hands and the tools to give your exteriors
+                                        sparkling looks again.</p>
+
+                                    <p>We offer unmatched service and unique all-inclusive solutions for your cleaning
+                                        needs at highly competitive pricing. As a top Atlantic pressure washer, we are
+                                        well-positioned to execute various cleaning jobs, large or small, for both
+                                        residential and commercial buildings.</p>
+
+                                    <p>We have in-depth knowledge of various surface areas and our cleaning methods
+                                        gives our clients the best results. We are professional with our workmanship and
+                                        we are a full-service company.</p>
+
+                                    <p>Our services extend to St Johns County, Ponte Vedra, Jacksonville, Neptune Beach,
+                                        Atlantic Beach, Orange Park and Jacksonville Beach.</p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="rcModal" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header text-light" style="background-color: #3f80d4ff;">
+                        <h3 class="modal-title mainHead" style="color:yellow;">Roof Cleaning</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="reserveForm">
+                            <div class="form-group row">
+                                <div class="col">
+                                    <p>Pressure washing is a very effective way of cleaning the exteriors of your
+                                        property and making them look their best. Bugs, weather, and age can make your
+                                        exterior look old and dirty. It can also lessen the curb appeal of your
+                                        property. Looking for the best pressure washer company near me? Aarron’s
+                                        Pressure Washing has capable hands and the tools to give your exteriors
+                                        sparkling looks again.</p>
+
+                                    <p>We offer unmatched service and unique all-inclusive solutions for your cleaning
+                                        needs at highly competitive pricing. As a top Atlantic pressure washer, we are
+                                        well-positioned to execute various cleaning jobs, large or small, for both
+                                        residential and commercial buildings.</p>
+
+                                    <p>We have in-depth knowledge of various surface areas and our cleaning methods
+                                        gives our clients the best results. We are professional with our workmanship and
+                                        we are a full-service company.</p>
+
+                                    <p>Our services extend to St Johns County, Ponte Vedra, Jacksonville, Neptune Beach,
+                                        Atlantic Beach, Orange Park and Jacksonville Beach.</p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- #modals -->
         <!-- Job Info form -->
         <div class="lightContainer dividerHelp">
             <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>Jacksonville's Pressure Washing & Cleaning Company</h3>
+                        <p>Over time, weather can have adverse effects on the look and structure of your home. It's only
+                            a matter of when that your once beautiful house is a shadow of its former self. Welcome to
+                            Aarron's Pressure Washing, the <strong>veteran-led</strong> home to the most affordable
+                            pressure washing and surface cleaning in the greater Jacksonville area. We enhance the curb
+                            appeal of your property and give it the dazzling look it deserves.</p>
+
+                        <p>Due to the climate in Florida, you need a reputable and reliable <strong>pressure washing
+                                company.</strong> Aarron's Pressure Washing provides services for both residential and
+                            commercial clients. For nearly two decades, we've delivered high-quality services to our
+                            clients all throughout Jacksonville, Ponte Vedra, Jax Beach, Neptune Beach, Atlantic Beach,
+                            St. Johns County and Orange Park, helping them restore the beauty of their homes and
+                            business buildings.</p>
+
+                        <p>Aarron's Pressure Washing is the leading pressure washing Jacksonville company. Our skills
+                            and experience give us the edge to be efficient in the delivery of our services. We have
+                            what it takes to handle any job effectively, on time, and within budget.</p>
+
+                        <p>​We boast of fully trained technicians who are experts in professional cleaning such as brick
+                            cleaning, roof cleaning, window washing, gutter cleaning, and all exterior surfaces as well
+                            as paver sealing. We take pride in our never-ending pursuit of industry knowledge and our
+                            tendency to master using cutting-edge equipment for our workmanship.</p>
+
+                        <p>The quality of the services have shown residents and businesses in Jacksonville that we are
+                            well equipped to handle any challenge. We provide affordable pressure washing without
+                            compromising our standard for value, quality, and customer satisfaction. We always strive to
+                            exceed our customers’ expectations.</p>
+
+                        <p>Our company is the affordable pressure washing option in Jacksonville you can trust with your
+                            property. We can remove any damaging residue and extend the life span of your property. Our
+                            services will improve the appearance of your fence, driveways, sidings, patio, and pool
+                            decks. </p>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col">
                         <div class="card" id="jobInfoForm">
@@ -327,16 +454,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h5>Quick Links</h5>
+                        <h5 style="color: yellow;" class="mainHead">Quick Links</h5>
                         <ul class="list-unstyled">
                             <li><a href="#" class="text-light">Home</a></li>
-                            <li><a href="#" class="text-light">Services</a></li>
-                            <li><a href="#" class="text-light">Gallery</a></li>
+                            <li><a href="services.html" class="text-light">Services</a></li>
+                            <li><a href="gallery.html" class="text-light">Gallery</a></li>
+                            <li><a href="aboutus.html" class="text-light">About Us</a></li>
                             <li><a href="#" class="text-light">Blog</a></li>
+                            <li><a href="contact.html" class="text-light">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col">
-                        <h5>Contact Us</h5>
+                        <h5 style="color: yellow;" class="mainHead">Contact Us</h5>
                         <ul class="list-unstyled">
                             <li class="text-light">Pressure Washing</br>4444 MadeUp Lane S</br>Jacksonville, FL 32250
                             </li>
@@ -347,7 +476,7 @@
                         </ul>
                     </div>
                     <div class="col">
-                        <h5>Proudly Serving</h5>
+                        <h5 style="color: yellow;" class="mainHead">Proudly Serving</h5>
                         <ul class="list-unstyled">
                             <li class="text-light">Jacksonville, FL</li>
                             <li class="text-light">Ponte Vedra, FL</li>
@@ -362,6 +491,7 @@
             </div>
         </footer>
     </div>
+    <a href="#top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
     <!-- #footer -->
 
 
@@ -369,6 +499,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 
 </html>
